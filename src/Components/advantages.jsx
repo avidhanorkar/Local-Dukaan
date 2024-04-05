@@ -1,6 +1,6 @@
 function Advantages(){
     return(
-        <div className="flex mt-[120px] justify-center gap-[120px]">
+        <div className="flex my-[120px] justify-center gap-[120px]">
             <div className="cust-ad advantages text-center">
                 <p className="text-3xl font-[750]">Customer Advantages</p>
                 <ul className="mt-[25px] text-[20px] px-[20px] font-[450]">

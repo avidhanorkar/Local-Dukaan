@@ -6,11 +6,15 @@ import './index.css'
 import Hero from './Components/hero.jsx'
 import Navbar from './Components/navbar.jsx'
 import Feature from './Components/features.jsx';
+import Category from './Components/Category.jsx';
+import Advantages from './Components/advantages.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
     <Navbar />
     <Hero />
     <Feature />
+    <Category />
+    <Advantages />
   </BrowserRouter>
 )
