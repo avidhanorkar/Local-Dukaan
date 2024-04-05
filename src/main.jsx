@@ -1,20 +1,26 @@
-import {BrowserRouter } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
 import './index.css'
-import Hero from './Components/hero.jsx'
-import Navbar from './Components/navbar.jsx'
-import Feature from './Components/features.jsx';
-import Category from './Components/Category.jsx';
-import Advantages from './Components/advantages.jsx';
+import User from './Components/user-page/user'
+import App from "./App";
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App/>,
+    children:[
+      {
+        path: "user",
+        element: <User />
+      }
+    ]
+  }
+])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
-    <Navbar />
-    <Hero />
-    <Feature />
-    <Category />
-    <Advantages />
-  </BrowserRouter>
+  <React.StrictMode>
+    <>
+      <RouterProvider router={router} />
+    </>
+  </React.StrictMode>,
 )
