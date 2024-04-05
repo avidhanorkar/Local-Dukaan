@@ -5,10 +5,12 @@ import App from './App.jsx'
 import './index.css'
 import Hero from './Components/hero.jsx'
 import Navbar from './Components/navbar.jsx'
+import Feature from './Components/features.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
     <Navbar />
     <Hero />
+    <Feature />
   </BrowserRouter>
 )
