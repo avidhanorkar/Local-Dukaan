@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './navbar.jsx'
-import User from './user-page/user.jsx';
+import User from './user-page/category-page.jsx';
 
 function Homepage(){
     return(
