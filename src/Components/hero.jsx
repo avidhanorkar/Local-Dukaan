@@ -16,7 +16,7 @@ function Hero() {
             </div>
           </div>
           <div className="illustrations">
-            <img src="./src/assets/shop.jpg" className="h-[400px] w-[800px]" alt="shopkeeper-illustrations" />
+            <img src="./src/Components/assets/shop.jpg" className="h-[400px] w-[800px]" alt="shopkeeper-illustrations" />
           </div>
         </div>
         <div className="button flex gap-[20px] justify-center pb-[50px]">
