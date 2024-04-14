@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+::-webkit-scrollbar{
+  display: none;
+}
+@layer components{
+  .feature-card{
+      @apply bg-[#FBEEE6] w-[250px] h-[187.5px] rounded-xl  p-6
+  }
+  .feature{
+      @apply text-3xl font-[700]
+  }
+  .feature-description{
+      @apply text-1xl text-gray-450
+  }
+  .advantages{
+      @apply bg-[#F9E0D0] h-[350px] w-[500px] p-5 rounded-lg
+  }
+}
