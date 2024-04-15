@@ -21,7 +21,7 @@ function Hero() {
         </div>
         <div className="button flex gap-[20px] justify-center pb-[50px]">
             <button className="bg-black text-white h-[50px] w-[100px] rounded-lg hover:bg-white hover:border-black hover:border-2 hover:text-black hover:transition-all duration-150 ease-out hover:ease-in">
-                Buy Here
+                Buy Here itrms
             </button>
             <button className="bg-[#FD6507] text-white h-[50px] w-[100px] rounded-lg hover:bg-white hover:border-[#FD650B] hover:border-2 hover:text-[#FD650B] duration-150 ease-out hover:ease-in hover:transition-all">
               Sell Here
