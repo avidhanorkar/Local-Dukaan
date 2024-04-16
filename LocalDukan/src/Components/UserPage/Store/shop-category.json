@@ -1,0 +1,122 @@
+{
+    "Kirana":[
+        {
+            "img": "",
+            "name": "Amul",
+            "address": "123, xyz, xyz, xyz",
+            "phone": "1234567890",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        },
+        {
+            "img": "",
+            "name": "Amul",
+            "address": "123, xyz, xyz, xyz",
+            "phone": "1234567890",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        },
+        {
+            "img": "",
+            "name": "Amul",
+            "address": "123, xyz, xyz, xyz",
+            "phone": "1234567890",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        },
+        {
+            "img": "",
+            "name": "Amul",
+            "address": "123, xyz, xyz, xyz",
+            "phone": "1234567890",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        }
+    ],
+    "Pharamacy": [
+        {
+            "img": "",
+            "name": "Amul",
+            "address": "123, xyz, xyz, xyz",
+            "phone": "1234567890",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        },
+        {
+            "img": "",
+            "name": "Amul",
+            "address": "123, xyz, xyz, xyz",
+            "phone": "1234567890",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        },
+        {
+            "img": "",
+            "name": "Amul",
+            "address": "123, xyz, xyz, xyz",
+            "phone": "1234567890",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        },
+        {
+            "img": "",
+            "name": "Amul",
+            "address": "123, xyz, xyz, xyz",
+            "phone": "1234567890",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        }
+    ],
+    "Stationary": [
+        {
+            "img": "",
+            "name": "Amul",
+            "address": "123, xyz, xyz, xyz",
+            "phone": "1234567890",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        },
+        {
+            "img": "",
+            "name": "Amul",
+            "address": "123, xyz, xyz, xyz",
+            "phone": "1234567890",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        },
+        {
+            "img": "",
+            "name": "Amul",
+            "address": "123, xyz, xyz, xyz",
+            "phone": "1234567890",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        },
+        {
+            "img": "",
+            "name": "Amul",
+            "address": "123, xyz, xyz, xyz",
+            "phone": "1234567890",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        }
+    ],
+    "Grocery": [
+        {
+            "img": "",
+            "name": "Amul",
+            "address": "123, xyz, xyz, xyz",
+            "phone": "1234567890",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        },
+        {
+            "img": "",
+            "name": "Amul",
+            "address": "123, xyz, xyz, xyz",
+            "phone": "1234567890",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        },
+        {
+            "img": "",
+            "name": "Amul",
+            "address": "123, xyz, xyz, xyz",
+            "phone": "1234567890",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        },
+        {
+            "img": "",
+            "name": "Amul",
+            "address": "123, xyz, xyz, xyz",
+            "phone": "1234567890",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        }
+    ]
+}
