@@ -5,6 +5,7 @@ import Layout from './Layout.jsx'
 import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import CategoryPage from './Components/UserPage/CategorySelection.jsx'
+import ShopCategory from './Components/UserPage/Store/shop-category.jsx'
 
 const router = createBrowserRouter([
   {
@@ -17,7 +18,11 @@ const router = createBrowserRouter([
       },
       {
         path: 'user',
-        element: <CategoryPage />
+        element: <CategoryPage />,
+      },
+      {
+        path: 'ShopSelection',
+        element: <ShopCategory />
       }
     ]
   }

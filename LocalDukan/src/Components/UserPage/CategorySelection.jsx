@@ -14,7 +14,7 @@ function CategoryPage(){
                             <img src={Rec.img} alt="" className="h-[150px] mx-[auto]"/>
                             <p className="text-2xl font-[700]">{Rec.name}</p>
                             <p className="font-[400] text-gray-500">{Rec.description}</p>
-                            <Link to={"{Rec.Link}"}>
+                            <Link to={Rec.Link}>
                                 <button className="text-[#FD650B] hover:underline font-[500]">Explore Here</button>
                             </Link>
                     </div>
