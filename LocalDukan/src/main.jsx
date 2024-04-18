@@ -6,6 +6,7 @@ import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import CategoryPage from './Components/UserPage/CategorySelection.jsx'
 import DataCards from './Components/UserPage/Store/shop-category.jsx'
+import PlaceOrder from './Components/UserPage/PlaceOrder.jsx'
 import { Auth0Provider } from '@auth0/auth0-react';
 const router = createBrowserRouter([
   {
@@ -21,8 +22,8 @@ const router = createBrowserRouter([
         element: <CategoryPage />,
       },
       {
-        path: 'ShopSelection',
-        element: <DataCards />
+        path: '/PlaceOrder',
+        element: <PlaceOrder />
       }
     ]
   }
