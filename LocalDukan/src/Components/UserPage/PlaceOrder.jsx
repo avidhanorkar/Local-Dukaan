@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-
+import { Link } from 'react-router-dom'
 function PlaceOrder(){
     const inputRef = useRef(null);
     const [image, setImage] = useState("");
@@ -45,8 +45,11 @@ function PlaceOrder(){
                     </div>
                 </div>
                 <div className="flex justify-center">
-                    <button className="text-white mt-[5px] p-2 h-[50px] w-[auto] bg-[#FD6507] rounded-lg hover:bg-white hover:border-[#FD650B] hover:border-2 hover:text-[#FD650B] ">Confirm Order</button>
+                    <Link to={'/ShopSelection'}>
+                        <button className="text-white mt-[5px] p-2 h-[50px] w-[auto] bg-[#FD6507] rounded-lg hover:bg-white hover:border-[#FD650B] hover:border-2 hover:text-[#FD650B] ">Confirm Order</button>
+                    </Link>
                 </div>
+
             </div>
         </>
     )
