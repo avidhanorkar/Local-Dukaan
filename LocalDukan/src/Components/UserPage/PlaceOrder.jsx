@@ -20,21 +20,31 @@ function PlaceOrder() {
     }
 
     const handleSubmit = () => {
-        // Send data to backend
-        const formData = new FormData();
-        formData.append("image", image);
-        formData.append("text", text);
-
-        // Example: Send a POST request to backend endpoint
-        fetch("http://localhost:3000/upload", {
-            method: "POST",
-            body: formData
-        })
-        .then(response => response.json())
-        .then(data => console.log(data))
-        .catch(error => console.error(error));
-    }
-
+        console.log("Text to be added:", text);
+    
+        // Read the existing JSON file
+        fetch('/src/Components/UserPage/Store/shop-category.json')
+            .then(response => response.json())
+            .then(jsonData => {
+                console.log("Existing JSON data:", jsonData);
+    
+                // Update the 'list' property with the new text
+                jsonData.list += text ;
+                console.log("Updated JSON data:", jsonData);
+    
+                // Write the updated JSON back to the file
+                fetch('/src/Components/UserPage/Store/shop-category.json', {
+                    method: 'PUT',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(jsonData)
+                })
+                .then(() => console.log('Text added to JSON file'))
+                .catch(error => console.error('Error updating JSON file:', error));
+            })
+            .catch(error => console.error('Error reading JSON file:', error));
+    }
 
     return(
         <>
