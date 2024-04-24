@@ -4,14 +4,14 @@
             "img": "./src/assets/Abdul.jpeg",
             "name": "Abdul",
             "address": "Gokuldham Society, Powder Galli, Goregaon East",
-            "phone": "1234567890",
+            "phone": "",
             "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
         },
         {
-            "img": "",
-            "name": "Amul",
-            "address": "",
-            "phone": "1234567890",
+            "img": "./src/assets/Vaibhav.jpg",
+            "name": "Vaibhav",
+            "address": "Sangamner",
+            "phone": "9359913123",
             "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
         },
         {
