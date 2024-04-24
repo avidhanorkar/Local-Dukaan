@@ -18,4 +18,7 @@
   .advantages{
       @apply bg-[#F9E0D0] h-[350px] w-[500px] p-5 rounded-lg
   }
+  .resize{
+    resize: none;
+  }
 }
