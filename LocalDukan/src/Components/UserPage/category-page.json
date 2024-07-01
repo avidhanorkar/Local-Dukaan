@@ -1,25 +1,25 @@
 {
     "categories": [
         {
-            "img": "../src/assets/kirana.png",
+            "img": "./assets/kirana.png",
             "name": "Kirana",
             "description": "Stock up on fresh produce, pantry staples, and household essentials from your neighborhood Kirana stores and more.",
             "Link": "/PlaceOrder"
         },
         {
-            "img": "../src/assets/medicine.png",
+            "img": "./assets/medicine.png",
             "name": "Pharmacy",
             "description": "Prescription refills & health essentials: Find nearby pharmacies to fulfill your healthcare needs.",
             "Link": "/PlaceOrder"
         },
         {
-            "img": "../src/assets/stationary.png",
+            "img": "./assets/stationary.png",
             "name": "Stationaries",
             "description": "Stock up on pens, notebooks, and office supplies from nearby shops. School supplies, craft essentials, and all things paper delivered fast.",
             "Link": "/PlaceOrder"
         },
         {
-            "img": "../src/assets/grocery.png",
+            "img": "./assets/grocery.png",
             "name": "Groceries",
             "description": "Stock up on fresh produce, pantry staples, and household essentials from your neighborhood Kirana stores and more.",
             "Link": "/PlaceOrder"

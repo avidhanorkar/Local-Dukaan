@@ -64,7 +64,7 @@ function PlaceOrder() {
                                 {image ? (
                                     <img src={URL.createObjectURL(image)} alt=""/>
                                 ) : (
-                                    <img src="./src/assets/uploadimg.svg" className="h-[100px]" alt="Promote to add image"/>
+                                    <img src="/assets/uploadimg.svg" className="h-[100px]" alt="Promote to add image"/>
                                 )}
                             </div>
                             {!image && (

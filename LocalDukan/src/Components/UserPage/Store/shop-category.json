@@ -2,14 +2,14 @@
     "List":[{"list":""}],
     "Kirana":[
         {
-            "img": "./src/assets/Abdul.jpeg",
+            "img": "/assets/Abdul.jpeg",
             "name": "Abdul",
             "address": "Gokuldham Society, Powder Galli, Goregaon East",
             "phone": "9322328267",
             "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
         },
         {
-            "img": "./src/assets/Vaibhav.jpg",
+            "img": "/assets/Vaibhav.jpg",
             "name": "Vaibhav",
             "address": "Sangamner",
             "phone": "9359913123",
@@ -92,7 +92,7 @@
     ],
     "Grocery": [
         {
-            "img": "./src/assets/Gian.png",
+            "img": "/assets/Gian.png",
             "name": "Gian",
             "address": "123, xyz, xyz, xyz",
             "phone": "1234567890",

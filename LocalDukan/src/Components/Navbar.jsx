@@ -7,7 +7,7 @@ function Navbar() {
         <>
             <div className="navbar flex bg-[#FFFFFF] justify-between h-[88px] items-center px-16">
                 <div className="logo flex items-center gap-2">
-                    <img src="./src/assets/Logo.png" className="h-10 " alt="Logo" />
+                    <img src="/assets/Logo.png" className="h-10 " alt="Logo" />
                     <p className="text-[#FD650B] font-bold text-[30px] ">LocalDukaan</p>
                 </div>
                 <div className="navContents">
